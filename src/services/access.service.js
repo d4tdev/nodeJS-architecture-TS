@@ -1,5 +1,5 @@
 const shopModel = require("../models/shop.model")
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const crypto = require('crypto')
 const KeyTokenService = require('../services/keyToken.service')
 const {createTokenPair} = require('../auth/authUtils')
