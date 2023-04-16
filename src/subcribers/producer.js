@@ -1,5 +1,5 @@
 const amqplib = require('amqplib')
-const amqpUri = "amqps://diixysgr:LDKqOg4aSoXp1WgfbZna-nEo-eItaiRz@armadillo.rmq.cloudamqp.com/diixysgr";
+const {rabbitmq: {amqpUri}} = require('../configs/config')
 
 const sendMessage = async ({msg, address}) => {
     try {

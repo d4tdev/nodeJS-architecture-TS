@@ -99,6 +99,10 @@ console.log(configFactories)
 const task = require('./tasks/collect-issue.task')
 task.execute().start();
 
+// init and test s3
+// const createBucketS3 = require('./configs/config.s3')
+// const uploadFile = require('./services/upload.service')
+
 // if the Promise is rejected this will catch it
 process.on('SIGINT', () => {
     console.log('Ctrl + C:: Service stop!!!')
