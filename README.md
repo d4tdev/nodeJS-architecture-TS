@@ -1,3 +1,5 @@
+## The project involves research on AWS, Docker, RabbitMQ ... and Clean Architecture
+
 A use case of Clean Architecture in Node.js comprising of Express.js, MongoDB
 and Redis as the main (but replaceable) infrastructure.
 
